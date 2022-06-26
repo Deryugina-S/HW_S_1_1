@@ -34,3 +34,18 @@ if (c > max)
   max = c;  
 }
 Console.WriteLine("Max = " + max);
+
+//Задача 3
+
+Console.Write("Введите число: a ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+
+if (a % 2 == 0)
+{
+  Console.WriteLine("Четное");
+}
+else 
+{
+  Console.WriteLine("Нечетное");
+}
