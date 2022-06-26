@@ -5,7 +5,7 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-  Console.WriteLine("Max" + a);  
+  Console.WriteLine("Max = " + a);  
 }
 
 else 
